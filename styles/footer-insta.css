@@ -1,0 +1,39 @@
+.foot-top-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.foot-top-options {
+  color: grey;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  padding-right: 10px;
+}
+
+.foot-bottom-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.switch-display-language {
+  color: grey;
+  background: none;
+  border: none;
+  font-size: 12px;
+  max-width: 73px;
+  overflow: hidden;
+}
+
+.insta-copyright {
+  font-size: 12px;
+  line-height: 12px;
+  color: grey;
+  margin-left: 16px;
+}

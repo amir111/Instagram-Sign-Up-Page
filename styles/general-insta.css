@@ -1,0 +1,10 @@
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  margin: 0px;
+  background-color: #F2F3F5; /* fds-gray-05 #F2F3F5 */
+}
