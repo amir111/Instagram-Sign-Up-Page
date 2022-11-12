@@ -1,5 +1,5 @@
-# Instagram-Login-Page
-Replica of Instagram's login page (utilized HTML5, CSS3, git)
+# Instagram-Sign-Up-Page
+Replica of Instagram's sign up page (utilized HTML5, CSS3, git)
 
 **Amir Sadiev** 
 
