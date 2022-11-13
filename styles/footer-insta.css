@@ -1,3 +1,16 @@
+/*
+below: the orginal insta sign up page has a margin-bottom of 52px, tried to do footer { marg-bot:52px } 
+instead of .footer-whole {same} but it didn't add a margin that way
+I may have to change this part of the code later when I get closer to finishing the other parts of the sign up page
+*/
+.footer-whole {
+  margin-bottom: 52px;
+}
+
+
+/*
+top half of footer starts here until you see the bottom half commentary 
+*/
 .foot-top-container {
   align-items: center;
   display: flex;
@@ -9,9 +22,43 @@
   color: grey;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
-  line-height: 12px;
-  padding-right: 10px;
+  line-height: 16px;
+  padding-right: 15px;
+  white-space: nowrap;
 }
+
+/*
+Below I am trying to avoid code redundancy by adding "," after each part 
+and the color:grey; and text-decoration:none; is so that the hyperlinks of the options don't show up as blue links 
+*/
+.meta-option a,
+.about-option a,
+.blog-option a,
+.jobs-option a,
+.help-option a,
+.api-option a,
+.privacy-option a,
+.terms-option a,
+.top-accounts-option a,
+.hashtags-option a,
+.locations-option a,
+.instagram-lite-option a,
+.contact-uploading-and-non-users-option a {
+  color: grey;
+  text-decoration: none;
+}
+
+.meta-option:hover,
+.about-option:hover,
+.blog-option:hover,
+.help-option:hover,
+.api-option:hover {
+  text-decoration: underline;
+}
+
+/*
+bottom half of footer starts here
+*/
 
 .foot-bottom-container {
   display: flex;
@@ -27,13 +74,17 @@
   background: none;
   border: none;
   font-size: 12px;
-  max-width: 73px;
+  max-width: 62px;
   overflow: hidden;
+}
+
+.switch-display-language:hover {
+  cursor: pointer;
 }
 
 .insta-copyright {
   font-size: 12px;
   line-height: 12px;
   color: grey;
-  margin-left: 16px;
+  margin-left: 10px;
 }
