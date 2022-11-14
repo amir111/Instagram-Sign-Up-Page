@@ -1,0 +1,17 @@
+.the-one-fundamental-div-in-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+
+  background-color: blue;
+}
+
+.major-div-no1-in-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
