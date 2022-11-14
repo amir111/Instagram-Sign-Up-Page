@@ -14,17 +14,74 @@
 
 <body>
   <main>
-    <!-- main will contain brandname, text, 
-        a "log in with facebook button", Sign up boxes, sign up button, legal <p>, and two blk clickable imgs at the bottom of main 
-      -->
+    <!-- 
+      Main will contain:
+      the Instagram brandname, text, a "log in with facebook button", "or" text, 4x Sign up boxes, text w/3 hyperlinks, A Sign up button, 
+      a text with hyperlink, 
+      legal <p>, and two blk clickable imgs at the bottom of main 
+      
+      Also, the largest div is flex direction of: row;
+      All other pieces in main is flex direction: column;  ...basically just a stack of divs. 
+
+      There are three major divs: 
+
+      1st major div splits into two divs (of those two divs, the top has 1 div, and the bottom has nine divs) 
+        top div = [brandname] 
+        bot div = [text] + [a "log in with facebook button"] + [The text OR with dashes on both sides "------ OR ------" ] + 
+          [4x Sign up boxes] + [Text with three hyperlinks for "More" and "Privacy Policy" and "Cookies Policy"] + [A Sign up button "Sign Up"]
+
+      2nd major div is just 1 div (of which is just a standalone div itself) 
+        [A text with hyperlink]
+
+      3rd major div is split into 2 divs (of which is just 1 div) 
+        [legal <p>] + [two blk clickable imgs at the bottom of main]
+    -->
+    <div class="fundamental-div-in-main">
+      <!-- div that contains the three major divs. It's just needed to set flex direction: row; -->
+
+      <div><!-- major div 1 in main-->
+        
+        <div>
+          <!-- top div = [brandname] -->
+        </div>
+
+        <div>
+          <!-- bottom div = [text] + [a "log in with facebook button"] + [Sign up boxes] + 
+            [Text with hyperlink privacy policy] + [A Sign up button "Sign Up"]  
+          -->
+          <div><!-- 1) [text] --></div>
+          <div><!-- 2) [a "log in with facebook button"] --></div>
+          <div><!-- 3) [The text OR with dashes on both sides "------ OR ------" ] --></div>
+          <div><!-- 4) [Sign up box1: "Mobile Number or Email"] --></div>
+          <div><!-- 5) [Sign up box2: "Full Name"] --></div>
+          <div><!-- 6) [Sign up box3: "Username"] --></div>
+          <div><!-- 7) [Sign up box4: "Password"] --></div>
+          <div><!-- 8) [Text with three hyperlinks for "More" and "Privacy Policy" and "Cookies Policy"] --></div>
+          <div><!-- 9) [A Sign up button "Sign Up"] --></div>
+        </div>
+
+      </div>
+
+      <div><!-- major div 2 in main-->
+        
+      </div>
+
+      <div><!-- major div 3 in main-->
+        
+      </div>
+
+    </div>
+
+
+
   </main>
 
   <footer>
     <!-- footer will contain a top div and bottom div -->
     <div class="footer-whole">
       <!-- Top div in footer will contain the following divs: Meta, About, Blog, Jobs, Help, API, Privacy, Terms, Top Accounts, Hashtags, 
-          Locations, Instagram Lite, Contact Uploading & Non-Users 
-        -->
+        Locations, Instagram Lite, Contact Uploading & Non-Users 
+      -->
       <div class="foot-top-container">
         <div class="foot-top-options">
           <p class="meta-option">
@@ -70,7 +127,8 @@
         </div>
         <div class="foot-top-options">
           <p class="privacy-option">
-            <a href="https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect" target="">
+            <a href="https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect"
+              target="">
               Privacy
             </a>
           </p>
