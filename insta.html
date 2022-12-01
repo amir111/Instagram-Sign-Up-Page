@@ -37,21 +37,31 @@
       3rd major div is split into 2 divs (of which is just 1 div) 
         [legal <p>] + [two blk clickable imgs at the bottom of main]
     -->
-    <div class="the-one-fundamental-div-in-main">
+    <div class="general-div-main">
       <!-- div that contains the three major divs. It's just needed to set flex direction: row; -->
 
-      <div class="major-div-no1-in-main"><!-- major div 1 in main-->
-        <div class="major1-tophalf"><!-- top div, of major div 1: [brandname] -->
+      <div class="major1-main"><!-- major div 1 in main-->
+        <div class="major1-tophalf">
+          <!-- top div, of major div 1: [brandname] -->
           <img src="img/Instagram_Logo_2.png" alt="Insta logo written out" style="width:174px; height:50px;">
         </div>
-        <div>
+
+        <div class="major1-bottom-half">
           <!-- bottom div = [text] + [a "log in with facebook button"] + [Sign up boxes] + 
             [Text with hyperlink privacy policy] + [A Sign up button "Sign Up"]  
           -->
-          <div><!-- 1) [text] -->
+          <div class="signup-text-in-light-grey"><!-- 1) [text] -->
             Sign up to see photos and videos from your friends.
           </div>
-          <div><!-- 2) [a "log in with facebook button"] --></div>
+          <div>
+            <!-- 2) [a "log in with facebook button"] -->
+            <button class="fb-button">
+              <img class="fb-icon-inside-button" src="img/1-f1-fb.jpg">
+              <a>Log in with Facebook</a>
+            </button>
+          </div>
+
+
           <div><!-- 3) [The text OR with dashes on both sides "------ OR ------" ] --></div>
           <div><!-- 4) [Sign up box1: "Mobile Number or Email"] --></div>
           <div><!-- 5) [Sign up box2: "Full Name"] --></div>
@@ -71,6 +81,7 @@
       </div>
 
     </div>
+
   </main>
 
   <footer>
