@@ -9,9 +9,11 @@ I may have to change this part of the code later when I get closer to finishing 
 
 
 /*
-top half of footer starts here until you see the bottom half commentary 
+top half of footer starts here until you see the "bottom half" commentary 
 */
 .foot-top-container {
+  margin-top: 54px;
+
   align-items: center;
   display: flex;
   justify-content: center;

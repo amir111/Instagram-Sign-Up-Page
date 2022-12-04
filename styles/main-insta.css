@@ -17,6 +17,7 @@ main {
   border: 1px solid rgb(219, 219, 219);
   border-radius: 1px;
   background-color: white;
+  padding-bottom: 30px;
 }
 
 .major1-tophalf {
@@ -91,3 +92,25 @@ main {
   font-size: 11px;
   color: rgb(209, 209, 209);
 }
+
+.floating-label-group {
+  position: relative;
+}
+
+.enter-NumOrEmail-bar {
+  max-height: 36px;
+  width: 256px;
+  font-size: 12px;
+  padding: 9px 0px 7px 8px;
+  
+  color: rgb(38, 38, 38);
+
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 1px;
+  background-color: white;
+}
+
+.enter-NumOrEmail-bar:focus {
+  outline: none;
+}
+
