@@ -108,35 +108,38 @@ main {
 }
 
 .input {
-  height: 18px;
   width: 256px;
+  height: 16px;
   font-size: 12px;
   /* where the user text will be located when typed */
-  padding: 15px 0px 2px 8px;
+  padding: 14px 0px 7px 8px;
 
   /* color of text being typed in by user */
   color: rgb(38, 38, 38);
 
   border: 1px solid rgb(219, 219, 219);
-  border-radius: 1px;
+  border-radius: 3px;
   background-color: rgb(250, 250, 250);
 }
 
 /* Remove border outline when input box is selected */
 .input:focus { 
   outline: none;
+  border: 1px solid rgb(161, 161, 161);
 }
 
 .placeholder {
+  position: absolute;
+  pointer-events: none;
+  
   color: rgb(150, 150, 150);
   font-size: 12px;
-  top: 13px;
-  left: 10px;
+  top: 14px;
+  left: 9px;
   line-height: 14px;
-  pointer-events: none;
-  position: absolute;
-
-  /* not sure about this one, I removed it but then had to change input:focus ~ .placeholder x,y positions again so I just kept this as is */
+  
+  /* not sure about this one, I removed it but then had to change 
+  input:focus ~ .placeholder x,y positions again so I just kept this as is */
   transform-origin: 0 50%; 
 
   /* how quick placeholder moves from original spot to wherever (in our case on top of the words being typed by user) */
@@ -145,15 +148,15 @@ main {
 
 /* 
 When input is on focus (clicked on) AND when placholder is not shown 
-in input then make the placeholder class do this: 
-transform, which basically moves the placeholder 
-somewhere on the screen which in this case is -1px to the right
-along the x-axis and -7px along the y-axis. 
+in input (when input has some user characters in it) then make the placeholder class do this: 
+transform, which basically moves (repositions) the placeholder 
+somewhere on the screen which in this case is -1px to the left
+along the x-axis and -7px up along the y-axis. 
 scale of 0.85 just scrunches the text size to .85 of original size 
 */
-.input:focus ~ .placeholder,
+/*.input:focus ~ .placeholder,*/
 .input:not(:placeholder-shown) ~ .placeholder {
-  transform: translate(-1px, -7px) scale(0.85);
+  transform: translate(-1px, -10px) scale(0.8);
 } 
 
 /* when placeholder is pushed up, make it's text color rgb(142,142,142)*/
@@ -161,7 +164,17 @@ scale of 0.85 just scrunches the text size to .85 of original size
   color: rgb(142, 142, 142);
 } 
 
+.input:not(:placeholder-shown) {
+  font-size: 11px;
+  /* where the user text will be located when typed */
+  padding: 16px 0px 3px 8px;
+} 
+
 /* While on focus, make placeholder text color yellow, in our case not needed */
 /* .input:focus ~ .placeholder {
   color: yellow;
 }  */
+
+/* Fill in mobile number/name/email section ends */
+
+/* blank starts */
