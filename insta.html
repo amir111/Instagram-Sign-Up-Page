@@ -40,38 +40,36 @@
     <div class="general-div-main">
       <!-- div that contains the three major divs. It's just needed to set flex direction: row; -->
 
-      <div class="major1-main">
-        <!-- major div 1 in main-->
+      <div class="major1-main"> <!-- major div 1 in main-->
         <div class="major1-tophalf">
           <!-- top div, of major div 1: [brandname] -->
           <img src="img/Instagram_Logo_2.png" alt="Insta logo written out" style="width:174px; height:50px;">
         </div>
 
         <div class="major1-bottom-half">
-          <!-- bottom div = [text] + [a "log in with facebook button"] + [Sign up boxes] + 
+          <!-- bottom div = [text] + [a "log in with facebook button"] + [4x Sign up boxes] + 
             [Text with hyperlink privacy policy] + [A Sign up button "Sign Up"] -->
-          <div class="signup-text-in-light-grey">
-            <!-- 1) [text] -->
+
+          <div class="signup-text-in-light-grey"> <!-- 1) [text] -->
             Sign up to see photos and videos from your friends.
           </div>
-          <div>
-            <!-- 2) [a "log in with facebook button"] -->
-            <button class="fb-button">
-              <img class="fb-icon-inside-button" src="img/1-f1-fb.jpg">
-              <a class = "fb-url" href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%2522o2g8rpobjq7f9h3a2t1hup9y4itqsn71ji868x1uu8k9v1ktlhlu%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26locale%3Den_US%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D1889e0f1-0436-45a3-94dc-1fc5f52e2647%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%2522o2g8rpobjq7f9h3a2t1hup9y4itqsn71ji868x1uu8k9v1ktlhlu%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%2522%257D%23_%3D_&display=page&locale=en_US&pl_dbl=0">
+          <div> <!-- 2) [a "log in with facebook button"] -->
+            <a class="fb-url"
+              href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%2522o2g8rpobjq7f9h3a2t1hup9y4itqsn71ji868x1uu8k9v1ktlhlu%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26locale%3Den_US%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D1889e0f1-0436-45a3-94dc-1fc5f52e2647%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%2522o2g8rpobjq7f9h3a2t1hup9y4itqsn71ji868x1uu8k9v1ktlhlu%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%2522%257D%23_%3D_&display=page&locale=en_US&pl_dbl=0">
+              <button class="fb-button">
+                <img class="fb-icon-inside-button" src="img/1-f1-fb.jpg">
                 Log in with Facebook
-              </a>
-            </button>
+              </button>
+            </a>
           </div>
-          <div class="gen-OR-div">
+          <div class="gen-OR-div"> <!-- 3) [The text OR with dashes on both sides "------ OR ------" ] -->
             <div class="dash-div">———————————————</div>
             <div class="grey-text-OR">
-              <!-- 3) [The text OR with dashes on both sides "------ OR ------" ] -->
               OR
             </div>
             <div class="dash-div">———————————————</div>
           </div>
-          <div class="form">
+          <div class="form"> <!-- 4) [4x Sign up boxes] -->
             <div class="input-container">
               <input class="input" type="text" placeholder=" ">
               <label class="placeholder">Mobile Number or Email</label>
@@ -93,41 +91,55 @@
               <label class="placeholder">Password</label>
             </div>
           </div>
-
-
-
-          <div>
-            <!-- 8) [Text with three hyperlinks for "More" and 
-              "Privacy Policy" and "Cookies Policy"] -->
+          <div> <!-- 5) [Text with three hyperlinks for "More" and "Privacy Policy" and "Cookies Policy"] -->
             <p class="privacy-info-start">
               People who use our service may have uploaded your contact information to Instagram.
-              <a class="privacy-info-1"
-              href="https://www.facebook.com/help/instagram/261704639352628"
-              target="_blank">
+              <a class="privacy-info-hl" href="https://www.facebook.com/help/instagram/261704639352628" target="_blank">
                 Learn More
               </a>
             </p>
+            <p class="privacy-info-end">
+              By signing up, you agree to our
+              <a class="privacy-info-hl" href="https://help.instagram.com/581066165581870/?locale=en_US"
+                target="_blank">
+                Terms
+              </a>
+              ,
+              <a class="privacy-info-hl" href="https://www.facebook.com/privacy/policy" target="_blank">
+                Privacy Policy
+              </a>
+              and
+              <a class="privacy-info-hl" href="https://help.instagram.com/1896641480634370/" target="_blank">
+                Cookies Policy
+              </a>
+              .
+            </p>
           </div>
 
-
-
-
-
-
-          <div>
-            <!-- 9) [A Sign up button "Sign Up"] -->
+          <div> <!-- 6) [A Sign up button "Sign Up"] -->
+            <a class="signup-url" href="https://www.instagram.com/accounts/emailsignup/">
+              <!-- disabled below button b/c user input needs to be authenticated first -->
+              <button disabled class="signup-button">
+                Sign up
+              </button>
+            </a>
           </div>
-
         </div>
       </div>
 
-      <div>
-        <!-- major div 2 in main-->
+      <div class="major2-main"> <!-- major div 2 in main-->
+        <div class="have-account">
+          <p>
+            Have an account?
+            <a class="login-url" href="https://www.instagram.com/accounts/login/?source=auth_switcher">
+              Log in
+            </a>
+          </p>
+        </div>
 
       </div>
 
-      <div>
-        <!-- major div 3 in main-->
+      <div> <!-- major div 3 in main-->
 
       </div>
 

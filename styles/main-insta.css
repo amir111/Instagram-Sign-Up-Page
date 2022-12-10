@@ -51,7 +51,12 @@ main {
 
 .fb-url {
   text-decoration: none;
+}
+
+.fb-button:active {
   color: white;
+  background-color: rgb(71, 182, 255);
+  border: 1px solid transparent;
 }
 
 .fb-button {
@@ -59,7 +64,7 @@ main {
   background-color: rgb(0, 149, 246);
   border: 1px solid transparent;
   border-radius: 4px;
-  padding: 6px 30px;
+  padding: 8px 30px 5px;
 
   width: 259px;
 
@@ -185,7 +190,7 @@ scale of 0.85 just scrunches the text size to .85 of original size
 /* Fill in mobile number/name/email section ends */
 
 /* privacy info starts */
-.privacy-info-start { 
+.privacy-info-start, .privacy-info-end { 
   color: rgb(150, 150, 150);
   font-size: 12px;
 
@@ -198,8 +203,55 @@ scale of 0.85 just scrunches the text size to .85 of original size
   margin-right: 40px;
 }
 
-.privacy-info-1 {
+.privacy-info-hl {
   text-decoration: none;
   color: rgb(146, 146, 146);
   font-weight: 500;
+}
+
+/*A sign up button added*/
+.signup-url {
+  text-decoration: none;
+}
+
+.signup-button { 
+  color: white;
+  background-color: rgb(161, 216, 252);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 6px 30px 4px;
+  width: 259px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  line-height: 18px;
+  margin: 8px 40px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/*major1-main ends here and major2-main starts here*/
+
+.major2-main {
+  margin-top: 10px;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 1px;
+  background-color: white;
+  padding-bottom: 22px;
+}
+
+.have-account {
+  width: 348px;
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-url {
+  text-decoration: none;
+  color:rgb(0, 149, 246)
 }
