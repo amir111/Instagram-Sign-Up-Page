@@ -8,7 +8,7 @@ Replica of Instagram's sign up page (utilized HTML5, CSS3, git)
 ## Goal
 I decided to practice my HTML/CSS skills by replicating Instagram's sign up page. 
 
-**Here's what I am trying to replicate:**
+**Here's what I am trying to replicate: (scroll below this image to see final results)**
 
 ![alt text](https://github.com/amir111/Instagram-Sign-Up-Page/blob/master/img/original-insta-sign-up-page.PNG)
 
