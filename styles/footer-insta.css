@@ -18,15 +18,18 @@ top half of footer starts here until you see the "bottom half" commentary
   display: flex;
   justify-content: center;
   flex-direction: row;
+
+  flex-wrap: wrap;
 }
 
 .foot-top-options {
-  color: grey;
+  color: rgb(140, 140, 140);
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 16px;
   padding-right: 15px;
   white-space: nowrap;
+  margin-bottom: 8px;
 }
 
 /*
@@ -46,7 +49,7 @@ and the color:grey; and text-decoration:none; is so that the hyperlinks of the o
 .locations-option a,
 .instagram-lite-option a,
 .contact-uploading-and-non-users-option a {
-  color: grey;
+  color: rgb(140, 140, 140);
   text-decoration: none;
 }
 
@@ -72,7 +75,7 @@ bottom half of footer starts here
 }
 
 .switch-display-language {
-  color: grey;
+  color: rgb(140, 140, 140);
   background: none;
   border: none;
   font-size: 12px;
@@ -87,6 +90,6 @@ bottom half of footer starts here
 .insta-copyright {
   font-size: 12px;
   line-height: 12px;
-  color: grey;
+  color: rgb(140, 140, 140);
   margin-left: 10px;
 }

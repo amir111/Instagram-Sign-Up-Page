@@ -220,7 +220,7 @@ scale of 0.85 just scrunches the text size to .85 of original size
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 6px 30px 4px;
-  width: 259px;
+  width: 262px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -255,3 +255,37 @@ scale of 0.85 just scrunches the text size to .85 of original size
   text-decoration: none;
   color:rgb(0, 149, 246)
 }
+
+/*major2-main ends here and major3-main starts here*/
+
+.major3-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 348px;
+}
+
+.get-the-app {
+  margin: 20px 20px;
+}
+
+.clickable-imgs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 254px;
+  margin-bottom: 20px;
+}
+
+.google-plei {
+  width: 134px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.get-it-from-microsoft {
+  width: 110px;
+  height: 40px;
+  object-fit: contain;
+}
+
