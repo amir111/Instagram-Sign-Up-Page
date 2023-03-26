@@ -3,7 +3,7 @@ Replica of Instagram's sign up page (utilized HTML5, CSS3) [NO bootstrap or JS w
 
 **Amir Sadiev** 
 
-**November 2022 - Dec 11 2022**
+**November 12 2022 - Dec 11 2022**
 
 ## Goal
 I decided to practice my HTML/CSS skills by replicating Instagram's sign up page from scratch. 
