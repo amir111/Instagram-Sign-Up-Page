@@ -1,5 +1,5 @@
 # Instagram-Sign-Up-Page
-Replica of Instagram's sign up page (utilized HTML5, CSS3, git) [NO bootstrap or js were used]
+Replica of Instagram's sign up page (utilized HTML5, CSS3, git) [NO bootstrap or JS were used]
 
 **Amir Sadiev** 
 
