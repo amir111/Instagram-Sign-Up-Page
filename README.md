@@ -1,5 +1,7 @@
 # Instagram-Sign-Up-Page
-Personal replica of Instagram's sign up page (utilized HTML5, CSS3) [NO bootstrap or JS were used]
+Personal replica of Instagram's sign up page (utilized HTML5, CSS3) 
+All source code was written from scratch just by eyeballing Instagram's original sign up page.
+[NO bootstrap or JS were used]
 
 **Amir Sadiev** 
 
